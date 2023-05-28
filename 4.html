@@ -1,0 +1,86 @@
+<html>
+
+
+    <head>
+        <title>form session </title>
+    </head>
+
+    <body>
+
+        <!-- 
+            form => send data to DataBase (table) 
+            method=> POST = hidden | GET = by url(default)            
+            inputs 
+
+            name: value
+            firstname: maya
+
+         -->
+
+
+        <form method="POST">
+
+            <label for="firstname">first name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter first name...">
+
+            <hr>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email">
+            <!-- 
+                @ and text after it 
+             -->
+
+             <hr>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <hr>
+            <label for="date">birth date:</label>
+            <input type="date" id="date" name="date">
+
+
+            <hr>
+            <label for="salary">salary:</label>
+            <input type="number" id="salary" name="salary" placeholder="Enter salary">
+
+
+            <hr>
+            <label for="phone-number">phone number:</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Enter phone number">
+
+            
+            <!-- chose inputs  -->
+            <hr>
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+
+            <hr>
+            <label for="">Hobbies:</label>
+            <input type="checkbox" name="hobbies" value="football"> football
+            <input type="checkbox" name="hobbies" value="drawing"> drawing
+            <input type="checkbox" name="hobbies" value="studying"> studying
+            <input type="checkbox" name="hobbies" value="swimming"> swimming
+
+            <hr>
+            <label for="">Car model:</label>
+            <select name="" id="">
+                <option value="">Select a car</option>
+                <option value="Kia">Kia</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Fiat">Fiat</option>
+            </select>
+
+            <hr>
+            <label for="">message:</label>
+            <textarea name="" id=""></textarea>
+
+
+            <hr>
+            <button>login</button>
+
+        </form>
+        
+    </body>
+</html>
